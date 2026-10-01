@@ -1,6 +1,6 @@
 @echo off
 cd /d C:\Users\shave\dev\tafsir-site
 git add -A > push_out.log 2>&1
-git commit -m "v1.9.4: chapter narration (Matthew 1-2, Luke 1-2 in Dari and Pashto) with follow-along; contents as a chapter grid; Dark is deep green, Royal Blue added; contents arch, ombre and shadow choices; crisp nameplates in every theme; chapter line centered under the frame; shorter share frames for short verses; no Google Fonts request" >> push_out.log 2>&1
+git commit -m "v1.9.5: references in Paratext order and book names from Paratext; honorific signs drawn by an embedded face; Side by side Study (Greek, meaning-based text and notes in step) as the default; position line and chapter buttons; page buttons, swipe by section and keep the screen on; Classic theme; settings split for readers and the team; review mode for interface wording; share from the Manuscript view" >> push_out.log 2>&1
 git push >> push_out.log 2>&1
 echo DONE_%ERRORLEVEL% >> push_out.log
